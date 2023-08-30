@@ -7,7 +7,7 @@ import java.sql.Statement;
 
 public class DBUtil {
 	static String driverName = "com.mysql.cj.jdbc.Driver";
-	static final String url = "jdbc:mysql://127.0.0.1:3306/korea_db";
+	static final String url = "jdbc:mysql://127.0.0.1:3306/haksa_db";
 	static final String user = "root";
 	static final String passwd = "0000";
 	static Connection connection() {
